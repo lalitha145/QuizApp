@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@300&family=Open+Sans&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a id="anchor" href="#">View Highscores <i class="fas fa-hand-point-left fa-lg"></i></a>
+            <span>Time:<span id="time"></span></span>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="intro">
+            <h1 id="heading">Coding Quiz Game</h1>
+            <p id="para">Try to answer the code related questions with in the time limit. <br> </br> Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button id="btn">Start Quiz</button>
+        </section>
+        <section id="quizPage">
+            <h1 id="questions"></h1>
+            <div id="opt">
+                <button class="options" id="1"></button>
+                <button class="options" id="2"></button>
+                <button class="options" id="3"></button>
+                <button class="options" id="4"></button>
+            </div>
+            <p id="ans"></p>
+        </section>
+        <section id="afterLastQuestion">
+            <h1>All Done!</h1>
+            <p>Your Final Score is <span id="scorecard"></span></p>
+           <label for="username">Enter Initials:</label>
+           <input id="username" type="text" name="username" required>
+           <button type="button" id="btnUserName">Submit</button>
+        </section>
+        <section id="finalSec">
+            <h1>Highscores</h1>
+            <ol id="highScoreList">
+            
+            </ol>
+            <button id="btnback">Go Back</button>
+            <button id="btnclear">Clear Highscores</button>
+        </section>
+    </main>
+    <script src="assets/script.js"></script>
+    <script src="questions.js"></script>
+</body>
+
+</html>
