@@ -1,5 +1,5 @@
 # QuizApp
-this challenge is to build out the Quiz App and make it look as close to the design as possible. This project focuses on HTML, CSS & JavaScript. Javascript is really important in this case since it allows the app to be functional by validating the correct answers.
+This challenge is to build out the Quiz App and make it look as close to the design as possible. This project focuses on HTML, CSS & JavaScript. Javascript is really important in this case since it allows the app to be functional by validating the correct answers.
 
 You can use any tools or technologies you like to help you complete the project. So, if you've got something you'd like to practice, feel free to give it a go.
 
